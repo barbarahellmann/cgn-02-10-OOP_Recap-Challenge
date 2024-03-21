@@ -7,10 +7,10 @@ public class Main {
 
 
         // Implement the ProductRepo class with a list to store products.
-        Product product1 = new Product("Book", 1, 10, 10.99);
-        Product product2 = new Product("Bag", 2, 20, 11.99);
-        Product product3 = new Product("Chair", 3, 30, 12.99);
-        Product product4 = new Product("Table", 4, 40, 13.99);
+        Product product1 = new Product("Book", 1,  10.99);
+        Product product2 = new Product("Bag", 2, 11.99);
+        Product product3 = new Product("Chair", 3,  12.99);
+        Product product4 = new Product("Table", 4,  13.99);
 
         ProductRepo productRepo = new ProductRepo();
 
@@ -39,5 +39,8 @@ public class Main {
         orderList.addOrder(order6);
 
         System.out.println(orderList.getAllOrders());
+
     }
+
+
 }
