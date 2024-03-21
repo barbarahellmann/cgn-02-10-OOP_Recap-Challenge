@@ -3,8 +3,10 @@ package org.example;
 import java.util.*;
 public class ProductRepo {
 
+    // Create a class ProductRepo that contains a list of Product objects.
     List<Product> products = new ArrayList<>();
 
+    // Implement methods to add, remove, and get products (single product and all products).
     public void addProduct(Product product) {
         products.add(product);
     }

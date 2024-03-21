@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        // Product list
+        // Implement the ProductRepo class with a list to store products.
         Product product1 = new Product("Book", 1, 10, 10.99);
         Product product2 = new Product("Bag", 2, 20, 11.99);
         Product product3 = new Product("Chair", 3, 30, 12.99);
@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println(productRepo.getAllProducts());
 
-        // List of orders
+        // Implement the OrderListRepo class with a list to store orders.
 
         OrderListRepo orderList = new OrderListRepo();
         Order order1 = new Order(11, 2, List.of(product1).toString());

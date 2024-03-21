@@ -4,9 +4,11 @@ import java.util.*;
 
 public class OrderListRepo {
 
+
+    // Create a class OrderListRepo that contains a list of Order objects.
     List<Order> orders = new ArrayList<>();
 
-
+    // Implement methods to add, remove, and (single order and all orders).
     public void addOrder(Order order) {
         orders.add(order);
     }
