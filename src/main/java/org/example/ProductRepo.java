@@ -3,11 +3,6 @@ package org.example;
 import java.util.*;
 public class ProductRepo {
 
-//    String name;
-//    int productID;
-//    int storage;
-//    double price;
-
     List<Product> products = new ArrayList<>();
 
     public void addProduct(Product product) {
