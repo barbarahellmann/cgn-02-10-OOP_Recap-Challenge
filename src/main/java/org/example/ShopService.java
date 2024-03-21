@@ -1,9 +1,5 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.*;
-
 public class ShopService {
     private ProductRepo productRepo;
     private OrderListRepo orderListRepo;
