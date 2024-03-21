@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface OrderRepo {
 
-    void add(Order order);
+    public void canAdd();
 
-    void remove(Order order);
+    public void canRemove();
 
-    void get(Order order);
+    public void canGet();
 
-    void getAll(List<Order> OrderRepo);
+    public void canGetAll();
 }
