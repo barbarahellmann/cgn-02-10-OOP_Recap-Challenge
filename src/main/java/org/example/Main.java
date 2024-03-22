@@ -4,7 +4,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        // Create OrderMapRepo or OrderListRepo
+        OrderRepo orderRepo = new OrderMapRepo(); // Change this to OrderListRepo() if needed
+        OrderRepo orderRepo2 = new OrderMapRepo();
 
+        // Pass the orderRepo to the ShopService constructor
+        ShopService shopService = new ShopService();
 
         // Implement the ProductRepo class with a list to store products.
         Product product1 = new Product("Book", 1,  10.99);

@@ -4,7 +4,7 @@ public class ShopService {
     private ProductRepo productRepo;
     private OrderListRepo orderListRepo;
 
-    public ShopService(ProductRepo productRepo, OrderListRepo orderListRepo) {
+    public ShopService() {
         this.productRepo = productRepo;
         this.orderListRepo = orderListRepo;
     }
